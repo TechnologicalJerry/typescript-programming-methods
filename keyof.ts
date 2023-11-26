@@ -1,15 +1,15 @@
 interface Person {
-    name: string;
-    age: number;
+  name: string;
+  age: number;
 }
 
 function printPersonProperty(person: Person, property: keyof Person) {
-    console.log(`Printing person property ${property}: "${person[property]}"`);
+  console.log(`Printing person property ${property}: "${person[property]}"`);
 }
 
 let person = {
-    name: "Max",
-    age: 27
+  name: "Max",
+  age: 27,
 };
 
-printPersonProperty(person, "name"); 
+printPersonProperty(person, "name");
