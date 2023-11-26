@@ -4,6 +4,7 @@ class Car {
     this.Color = color;
   }
 }
+
 class Audi extends Car {
   Price: number;
   constructor(color: string, price: number) {
