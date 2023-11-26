@@ -1,4 +1,4 @@
-var TestSum;
+var TestSum: any;
 (function (TestSum) {
     var Calc = (function () {
         function Calc() {
