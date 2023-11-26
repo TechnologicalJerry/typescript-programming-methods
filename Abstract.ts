@@ -19,4 +19,5 @@ class Employee extends Person {
 }
 
 let emp: Person = new Employee("James", 100);
+
 emp.display();
