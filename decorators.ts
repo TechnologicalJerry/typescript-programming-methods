@@ -1,9 +1,9 @@
 class Person {
-    msg: string;
-    constructor(message: string) {
-        this.msg = message;
-    }
-    show() {
-        return "Hello, " + this.msg;
-    }
-}  
+  msg: string;
+  constructor(message: string) {
+    this.msg = message;
+  }
+  show() {
+    return "Hello, " + this.msg;
+  }
+}
