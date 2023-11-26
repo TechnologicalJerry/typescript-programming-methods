@@ -12,6 +12,7 @@ class Audi extends Car {
     this.Price = price;
   }
   display(): void {
+    
     console.log("Color of Audi car: " + this.Color);
     console.log("Price of Audi car: " + this.Price);
   }
