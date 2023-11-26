@@ -20,4 +20,5 @@ class Audi extends Car {
 }
 
 let obj = new Audi(" Black", 8500000);
+
 obj.display();
