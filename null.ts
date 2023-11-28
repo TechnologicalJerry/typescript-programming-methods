@@ -1,7 +1,7 @@
 let value: string | undefined | null = null;
 console.log(typeof value);
 
-value = 'hello';
+value = "hello";
 console.log(typeof value);
 
 value = undefined;
