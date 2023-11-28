@@ -1,6 +1,6 @@
 interface Point {
-    x: number;
-    y: number;
+  x: number;
+  y: number;
 }
 
 let pointPart: Partial<Point> = {};
