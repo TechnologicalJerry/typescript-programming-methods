@@ -11,6 +11,6 @@ const logExample = (method, scenario, result) => {
 };
 
 (() => {
-logExample("concat", "extend numbers", sampleNumbers.concat([6, 7]));
-  logExample("concat", "mix primitives", ["start"].concat(sampleWords, "end"));
+  logExample("concat", "extend numbers", sampleNumbers.concat([6, 7]));
+    logExample("concat", "mix primitives", ["start"].concat(sampleWords, "end"));
 })();
