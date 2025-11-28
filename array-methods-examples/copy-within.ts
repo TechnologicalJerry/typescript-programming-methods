@@ -2,7 +2,7 @@
  * copyWithin – copies part of array within itself.
  */
 
-const logExample = (method, scenario, result) => {
+const logExample = (method: string, scenario: string, result: unknown) => {
   console.log(`${method} -> ${scenario}:`, result);
 };
 
