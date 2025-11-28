@@ -6,7 +6,7 @@ const nestedNumbers = [[1, 2], [3, 4], [5, 6]];
 
 const deepNestedNumbers = [1, [2, [3, [4]]]];
 
-const logExample = (method, scenario, result) => {
+const logExample = (method: string, scenario: string, result: unknown) => {
   console.log(`${method} -> ${scenario}:`, result);
 };
 
