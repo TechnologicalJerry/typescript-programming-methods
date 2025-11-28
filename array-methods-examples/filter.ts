@@ -10,7 +10,7 @@ const samplePeople = [
   { id: 3, name: "Linus", active: true, scores: [91, 96] },
 ];
 
-const logExample = (method, scenario, result) => {
+const logExample = (method: string, scenario: string, result: unknown) => {
   console.log(`${method} -> ${scenario}:`, result);
 };
 
